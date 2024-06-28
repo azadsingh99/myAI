@@ -22,8 +22,11 @@ const Profile = () => {
               <h2 style={{ fontSize: '1.25rem', fontWeight: '700' }}>Emotion Detector AI</h2>
             </div>
             <nav style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+              {/* eslint-disable jsx-a11y/anchor-is-valid */}
               <a href="#" style={{ display: 'block', padding: '0.5rem', color: '#4b5563', borderRadius: '0.375rem', textDecoration: 'none' }}>Dashboard</a>
+              {/* eslint-disable jsx-a11y/anchor-is-valid */}
               <a href="#" style={{ display: 'block', padding: '0.5rem', color: '#4b5563', borderRadius: '0.375rem', textDecoration: 'none' }}>Emotion Detector</a>
+              {/* eslint-disable jsx-a11y/anchor-is-valid */}
               <a href="#" style={{ display: 'block', padding: '0.5rem', color: '#4b5563', borderRadius: '0.375rem', textDecoration: 'none' }}>File</a>
 
                
